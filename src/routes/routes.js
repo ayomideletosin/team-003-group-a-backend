@@ -16,7 +16,7 @@ router.get('/api', (req, res) => {
     .status(200)
     .json({
       message: 'educonnecte rest api built on node.js and express',
-      statu: 'success',
+      status: 'success',
     });
 });
 
